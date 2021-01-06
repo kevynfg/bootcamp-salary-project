@@ -1,8 +1,7 @@
 {
-  "name": "bootcamp-salary-project",
-  "version": "1.0.0",
-  "description": "Practical project to process input data and show IRPF, INSS discounts.",
-  "main": "index.js",
+  "name": "trabalho-pratico-salary",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.3.2",
@@ -19,17 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kevynfg/bootcamp-salary-project.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kevynfg/bootcamp-salary-project/issues"
-  },
-  "homepage": "https://github.com/kevynfg/bootcamp-salary-project#readme",
   "browserslist": {
     "production": [
       ">0.2%",
